@@ -27,11 +27,11 @@ void main(){
 }
 ```
 > Catatan : Dart menganut konsep case sensitive, artinya abc berbeda dengan Abc
-Aturan dalam penamaan variabel :
+### Aturan dalam penamaan variabel :
 1. Karakter pertama harus berupa huruf, bisa juga pake underscore ( _ )
 2. Tidak boleh diawali angka
 3. Tidak boleh menggunakan karakter spesial seperti $ # @ & dan lain-lain
 4. Tidak boleh menggunakan spasi
-5. Jangan menggunakan keyword sebagai nama variabel
+5. Jangan menggunakan keyword sebagai nama variabel seperti **print**,**true**,**false**,**final**,**import** dan lain-lain
 
 3. Operator
