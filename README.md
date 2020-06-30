@@ -9,3 +9,4 @@ Dart adalah bahasa pemrograman modern yang dikembangkan oleh Google (dirancang o
 ##List Belajar Dart##
 1. Sintak Dasar (Hello World, Komentar)
 2. Variabel dan Tipe Data
+3. Operator
