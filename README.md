@@ -34,4 +34,11 @@ void main(){
 4. Tidak boleh menggunakan spasi
 5. Jangan menggunakan keyword sebagai nama variabel seperti **print**,**true**,**false**,**final**,**import** dan lain-lain
 
-3. Operator
+### Tipe data yang sering digunakan di dart :
+- (Number)
+  - Integer
+  - Double
+- String
+- Boolean
+- List
+- Map
