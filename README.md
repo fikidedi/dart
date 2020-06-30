@@ -7,7 +7,7 @@ Dart adalah bahasa pemrograman modern yang dikembangkan oleh Google (dirancang o
 
 ## List Belajar Dart
 1. Sintak Dasar (Hello World, Komentar)
-```
+```json
 /* 
  * ini adalah fungsi main. fungsi yang akan dijalankan pertama kali
  * ketika program dijalankan
