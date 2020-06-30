@@ -52,6 +52,7 @@ void main(){
   
   //tipe data string
   var pesan = "Selamat datang";
+  //String pesan = "Selamat datang";
   
   //tipe data boolean
   bool isValid = true;
