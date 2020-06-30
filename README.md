@@ -14,9 +14,24 @@ Dart adalah bahasa pemrograman modern yang dikembangkan oleh Google (dirancang o
 */
 main(){
   //tampilkan tulisan hello world ke layar
-  print('Hello World');
+  print("Hello World");
 }
 ```
 
 2. Variabel dan Tipe Data
+```
+void main(){
+  var nama = "Andika";
+  var umur = 18;
+  print("Nama saya ${nama} berusia ${umur} tahun");
+}
+```
+> Catatan : Dart menganut konsep case sensitive, artinya abc berbeda dengan Abc
+Aturan dalam penamaan variabel :
+1. Karakter pertama harus berupa huruf, bisa juga pake underscore ( _ )
+2. Tidak boleh diawali angka
+3. Tidak boleh menggunakan karakter spesial seperti $ # @ & dan lain-lain
+4. Tidak boleh menggunakan spasi
+5. Jangan menggunakan keyword sebagai nama variabel
+
 3. Operator
