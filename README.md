@@ -42,3 +42,32 @@ void main(){
 - Boolean
 - List
 - Map
+```
+void main(){
+  //tipe data integer
+  int umur = 18;
+  
+  //tipe data double
+  double phi = 3.14;
+  
+  //tipe data string
+  var pesan = "Selamat datang";
+  
+  //tipe data boolean
+  bool isValid = true;
+  
+  //list
+  var angka = [1,2,3,4,5];
+  
+  //map
+  var makanan = {'Bakso':10000,'Mie Ayam':12000};
+  
+  print(umur);
+  print(phi);
+  print(pesan);
+  print(isValid);
+  print(angka);
+  print(makanan);
+
+}
+```
