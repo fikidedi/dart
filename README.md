@@ -27,6 +27,7 @@ void main(){
 }
 ```
 > Catatan : Dart menganut konsep case sensitive, artinya abc berbeda dengan Abc
+
 ### Aturan dalam penamaan variabel :
 1. Karakter pertama harus berupa huruf, bisa juga pake underscore ( _ )
 2. Tidak boleh diawali angka
@@ -42,6 +43,7 @@ void main(){
 - Boolean
 - List
 - Map
+
 ```
 void main(){
   //tipe data integer
