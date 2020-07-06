@@ -23,7 +23,7 @@ main(){
 void main(){
   var nama = "Andika";
   var umur = 18;
-  print("Nama saya ${nama} berusia ${umur} tahun");
+  print("Nama saya $nama berusia $umur tahun");
 }
 ```
 > Catatan : Dart menganut konsep case sensitive, artinya abc berbeda dengan Abc
