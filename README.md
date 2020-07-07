@@ -144,12 +144,20 @@ void main(){
 ```
 
 ### Operator di dart
+Ada beberapa jenis operator yaitu :
+1. Operator Aritmatika
+2. Operator Perbandingan
+3. Operator Logika
 
-Operator digunakan untuk melakukan perhitungan aritmatika seperti penjumlahan, pengurangan, perkalian, pembagian, etc
-| Operator | Description |
+#### Operator Aritmatika
+Operator ini digunakan untuk melakukan perhitungan aritmatika seperti penjumlahan, pengurangan, perkalian, pembagian, etc
+| Operator | Fungsi |
 | ----------- | ----------- |
 | + | Penjumlahan |
 | - | Pengurangan |
 | * | Perkalian |
 | / | Pembagian |
 | % | Modulo atau sisa hasil bagi |
+
+> Catatan : Operator aritmatika pada pemrograman memiliki aturan yang sama dengan matematika, di mana perkalian dan pembagian akan didahulukan sebelum penjumlahan atau pengurangan.
+
