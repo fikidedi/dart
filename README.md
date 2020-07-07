@@ -66,13 +66,13 @@ String nama = 'Fiki Dedi';  // String
 int umur = 20;          // integers
 ```
 
-
+contoh kode program berdasarkan tipe datanya
 ```
 void main(){
   //tipe data integer
   int umur = 18;
   
-  //tipe data double
+  //tipe data double (desimal)
   double phi = 3.14;
   
   //tipe data string
@@ -96,4 +96,28 @@ void main(){
   print(makanan);
 
 }
+```
+
+Berikut contoh kode konversi tipe data
+```
+void main(){
+  // String -> int
+  var nilai = int.parse('100');
+  
+  // String -> double
+  var nilaidesimal = double.parse('12.5');
+  
+  // int -> String
+  var nilai2 = 20.toString();
+  
+  // double -> String
+  var nilaiphi = 3.14159.toStringAsFixed(2); // String nilaiphi = '3.14'
+  
+  print(nilai);
+  print(nilaidesimal);
+  print(nilai2);
+  print(nilaiphi);
+  
+}
+
 ```
