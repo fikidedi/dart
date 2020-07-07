@@ -142,3 +142,14 @@ void main(){
 }
 
 ```
+
+### Operator di dart
+
+Operator digunakan untuk melakukan perhitungan aritmatika seperti penjumlahan, pengurangan, perkalian, pembagian, etc
+| Operator | Description |
+| ----------- | ----------- |
+| + | Penjumlahan |
+| - | Pengurangan |
+| * | Perkalian |
+| / | Pembagian |
+| % | Modulo atau sisa hasil bagi |
