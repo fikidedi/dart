@@ -23,7 +23,10 @@ main(){
 void main(){
   var nama = "Andika";
   var umur = 18;
+  //beri tanda $ jika dimasukkan dalam petik
   print("Nama saya $nama berusia $umur tahun");
+  print(nama);
+  print(umur);
 }
 ```
 > Catatan : Dart menganut konsep case sensitive, artinya abc berbeda dengan Abc
@@ -43,6 +46,18 @@ void main(){
 - Boolean
 - List
 - Map
+
+**catatan :**
+Dart mendukung *type inference*. artinya ketika mendeklarasikan variabel dengan var, 
+Dart akan secara otomatis menentukan tipe datanya. Misalnya :
+
+```
+var nama = 'Fiki Dedi';  // String
+var umur = 20;          // integers
+```
+
+Compiler akan tahu bahwa variabel nama memiliki nilai berupa String atau teks 
+dan variabel umur bernilai angka atau integer meskipun kita tidak mendefinisikannya secara eksplisit.
 
 ```
 void main(){
