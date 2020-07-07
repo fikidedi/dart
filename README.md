@@ -217,7 +217,7 @@ void main(){
 | Operator | Fungsi |
 | ----------- | ----------- |
 | && | AND |
-| || | OR |
+| \|| | OR |
 | ! | NOT |
 
 contoh kode :
