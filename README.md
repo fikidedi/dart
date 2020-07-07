@@ -38,14 +38,14 @@ void main(){
 4. Tidak boleh menggunakan spasi
 5. Jangan menggunakan keyword sebagai nama variabel seperti **print**,**true**,**false**,**final**,**import** dan lain-lain
 
-### Tipe data yang sering digunakan di dart :
-- (Number)
-  - Integer
-  - Double
+### Tipe data yang digunakan di dart :
+- Integer
+- Double
 - String
 - Boolean
-- List
-- Map
+- List *daftar nilai* -> \[10,20,30] atau \["kijang","rusa","beruang"]
+- Map *pasangan key-value* -> {"nama":"fiki","umur":20}
+- dynamic *tipe data apapun*
 
 **catatan :**
 Dart mendukung *type inference*. artinya ketika mendeklarasikan variabel dengan var, 
@@ -56,8 +56,16 @@ var nama = 'Fiki Dedi';  // String
 var umur = 20;          // integers
 ```
 
-Compiler akan tahu bahwa variabel nama memiliki nilai berupa String atau teks 
-dan variabel umur bernilai angka atau integer meskipun kita tidak mendefinisikannya secara eksplisit.
+Compiler akan tahu bahwa variabel nama memiliki nilai berupa **String** atau teks 
+dan variabel umur bernilai angka atau **integer** meskipun kita tidak mendefinisikannya secara eksplisit.
+
+Kamu bisa mendeklarasikan tipe data variabel secara eksplisit untuk menghindari kebingungan dan memudahkan proses debuggin dengan cara berikut
+
+```
+String nama = 'Fiki Dedi';  // String
+int umur = 20;          // integers
+```
+
 
 ```
 void main(){
