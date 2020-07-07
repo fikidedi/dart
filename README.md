@@ -31,6 +31,8 @@ void main(){
 ```
 > Catatan : Dart menganut konsep case sensitive, artinya abc berbeda dengan Abc
 
+> $ merupakan **interpolation** di mana kita bisa memasukkan nilai dari variabel atau expression ke dalam string. konsep ini dikenal dengan nama **String Interpolation**
+
 ### Aturan dalam penamaan variabel :
 1. Karakter pertama harus berupa huruf, bisa juga pake underscore ( _ )
 2. Tidak boleh diawali angka
