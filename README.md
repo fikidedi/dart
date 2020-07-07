@@ -199,3 +199,52 @@ contoh kode :
 | < | kurang dari |
 | >= | lebih dari sama dengan |
 | <= | kurang dari sama dengan |
+
+Contoh penerapan kode :
+
+```
+void main(){
+  if (10 > 2) {
+    print('Benar gan');
+  } else {
+    print('Salah gan');
+  }
+}
+```
+
+#### Operator Logika
+
+| Operator | Fungsi |
+| ----------- | ----------- |
+| && | AND |
+| || | OR |
+| ! | NOT |
+
+contoh kode :
+```
+void main(){
+  //contah and
+  if (10 > 2 && 2 != 2) {
+    print('Benar gan');
+  } else {
+    print('Salah gan');
+  }
+  //outputnya salah gan
+  
+  //contoh or
+  if (10 > 2 || 2 != 2) {
+    print('Benar gan');
+  } else {
+    print('Salah gan');
+  }
+  //outputnya benar gan
+  
+  //contoh not
+   if (10 != 0) {
+    print('Benar gan');
+  } else {
+    print('Salah gan');
+  }
+  //outputnya benar gan
+}
+```
