@@ -33,6 +33,25 @@ void main(){
 
 > $ merupakan **interpolation** di mana kita bisa memasukkan nilai dari variabel atau expression ke dalam string. konsep ini dikenal dengan nama **String Interpolation**
 
+contoh lain penerapan **String interpolation**
+```
+void main(){
+  print('2 + 4 = ${2 + 4}');
+  //jika ingin menampilkan dollar sebagai mata uang
+  print('harganya \$50');
+  //cara lain
+  print(r'harganya $50');
+  /*
+   Huruf ‘r’ sebelum String akan memberitahu Dart untuk menganggap String sebagai raw, yang berarti akan mengabaikan interpolation.
+   */
+  
+}
+/* Outputnya :
+2 + 4 = 6
+harganya $50
+harganya $50 */
+```
+
 ### Aturan dalam penamaan variabel :
 1. Karakter pertama harus berupa huruf, bisa juga pake underscore ( _ )
 2. Tidak boleh diawali angka
