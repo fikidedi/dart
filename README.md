@@ -161,3 +161,41 @@ Operator ini digunakan untuk melakukan perhitungan aritmatika seperti penjumlaha
 
 > Catatan : Operator aritmatika pada pemrograman memiliki aturan yang sama dengan matematika, di mana perkalian dan pembagian akan didahulukan sebelum penjumlahan atau pengurangan.
 
+contoh kode :
+```
+void main(){
+  print(50 + 2);   // 52
+  print(50 - 2);   // 48
+  print(50 * 2);   // 100
+  print(50 / 2);   // 25
+  print(50 % 2);   // 0
+}
+```
+
+dart juga menggunakan konsep increment (x++) dan decrement (b--)
+
+contoh kode :
+```
+  var a = 16, b = 15;
+  a++; //artinya a = a + 1
+  b--; //artinya b = b -1
+  print(a); // output = 17
+  print(b); // output = 14
+  
+  a+=5;
+  print(a); // output = 22
+  
+  a*=2;
+  print(a); //output = 32
+```
+
+#### Operator Perbandingan
+
+| Operator | Fungsi |
+| ----------- | ----------- |
+| == | sama dengan |
+| != | tidak sama dengan |
+| > | lebih dari |
+| < | kurang dari |
+| >= | lebih dari sama dengan |
+| <= | kurang dari sama dengan |
