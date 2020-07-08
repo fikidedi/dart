@@ -4,6 +4,7 @@ Dart adalah bahasa pemrograman modern yang dikembangkan oleh Google (dirancang o
 
 ## Editor Online
 [Dartpad](https://dartpad.dartlang.org/)
+[Install Dart](https://www.tutorialkart.com/dart/install-dart-on-windows/)
 
 ## List Belajar Dart
 1. Sintak Dasar (Hello World, Komentar)
