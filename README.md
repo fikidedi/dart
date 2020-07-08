@@ -151,6 +151,7 @@ Ada beberapa jenis operator yaitu :
 
 #### Operator Aritmatika
 Operator ini digunakan untuk melakukan perhitungan aritmatika seperti penjumlahan, pengurangan, perkalian, pembagian, etc
+
 | Operator | Fungsi |
 | ----------- | ----------- |
 | + | Penjumlahan |
@@ -223,7 +224,7 @@ void main(){
 contoh kode :
 ```
 void main(){
-  //contah and
+  //contoh and
   if (10 > 2 && 2 != 2) {
     print('Benar gan');
   } else {
