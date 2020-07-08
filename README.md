@@ -249,3 +249,46 @@ void main(){
   //outputnya benar gan
 }
 ```
+
+## Try Catch
+
+adalah teknik yang digunakan untuk mengatasi exception. 
+
+Apa itu exeption ? adalah kondisi dimana aplikasi mengalami error ketika berjalan (running).
+salah satu contohnya adalah program aplikasi perhitungan digunakan untuk membagi bilangan dengan 0.
+mengapa terjadi error jika membagi bilangan dengan 0 ? karena pada prinsip matematika kita memang
+tidak bisa membagi bilangan dengan 0.
+
+Error yang terjadi karena membagi bilangan dengna 0 disebut dengan DivisionByZero
+
+Jika exception sudah kita ketahui penyebabnya kita dapat menggunakan keyword on sehingga menjadi **try - on**
+
+contoh penerapan kode
+
+```
+try {
+  var a = 13;
+  var b = 0;
+  print(a / b);
+} on IntegerDivisionByZeroException {
+  print('Jangan bagi dengan angka 0');
+}
+```
+
+#### Bagaimana jika exeption nya tidak kita ketahui ? 
+Untuk mengatasi exeption yang tidak kita ketahui, 
+kita bisa menggunakan keyword **catch** setelah **try** sehingga menjadi **try - catch**
+
+contoh penerapan kode :
+
+```
+try {
+  var a = 13;
+  var b = 0;
+  print(a / b);
+} catch(e) {
+  print('Penyebab error : $e');
+}
+```
+
+> Kode catch butuh satu parameter yang merupakan objek exception. Kita dapat mencetak exception tersebut ke layar untuk menampilkan exception apa yang terjadi. Pada kode diatas kita menggunakan parameter **e**, kamu bisa menggunakan kata atau kalimat lain jika suka.
