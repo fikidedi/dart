@@ -291,4 +291,4 @@ try {
 }
 ```
 
-> Kode catch butuh satu parameter yang merupakan objek exception. Kita dapat mencetak exception tersebut ke layar untuk menampilkan exception apa yang terjadi. Pada kode diatas kita menggunakan parameter **e**, kamu bisa menggunakan kata atau kalimat lain jika suka.
+> Kode catch butuh satu parameter yang merupakan objek exeption. Kita dapat mencetak exception tersebut ke layar untuk menampilkan exception apa yang terjadi. Pada kode diatas kita menggunakan parameter **e**, kamu bisa menggunakan kata atau kalimat lain jika suka.
